@@ -1,0 +1,7 @@
+.bg {
+    background-color: #eee;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
