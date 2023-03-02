@@ -5,15 +5,15 @@ import Link from "next/link";
     return (
        
        
-<div>
- 
+<div className="posts">
+
     {
         data.posts.map ( post => {
             return (
-            <div key={post.id}>
+            <div key={post.id} className="post">
                 <h1>{post.title}</h1>
                
-                <Link href={`/posts/${post.id}`}><button>Read more</button></Link>
+                <Link href={`/posts/${post.id}`}><button className="button-85">Read more</button></Link>
             </div>
             )
         })
